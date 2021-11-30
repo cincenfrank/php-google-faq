@@ -1,20 +1,86 @@
+header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+main {
+  padding-top: 100px;
+}
+footer {
+  min-height: 30px;
+  background-color: gray;
+}
+h2,
+h3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+p,
+ul {
+  padding: 10px 0;
+}
 .custom-header {
-  padding: 15px;
+  /* padding: 15px; */
   /* display: flex; */
 }
+.header-first-row {
+  padding: 15px;
+}
+.custom-navbar {
+  border-bottom: 1px solid gray;
+  padding-left: 15px;
+}
 .logo-img {
-  width: 80px;
+  width: 70px;
 }
 .user-avatar-img {
-  width: 40px;
+  width: 100%;
+  width: 100%;
 }
 .navbar-list {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+.navbar-list li {
+  padding-right: 40px;
 }
 .navbar-list a {
-  padding: 8px 10px;
+  padding-bottom: 10px;
   display: inline-block;
   text-transform: capitalize;
   text-decoration: none;
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  display: inline-block;
+}
+.navbar-list a.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+.custom-icon {
+  line-height: 30px;
+  font-size: 18px;
+}
+.circular-container {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+.circular-container:hover {
+  background-color: gray;
+}
+.page-name {
+  font-size: 22px;
+  color: grey;
+  text-transform: capitalize;
 }
