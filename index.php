@@ -166,7 +166,6 @@ $data = [
                 <div class="circular-container">
                     <img class="user-avatar-img" src="<?php echo $headerData["userAvatar"] ?>" alt="user avatar">
                 </div>
-
             </div>
         </div>
         <nav class="custom-navbar">
